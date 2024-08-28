@@ -1,0 +1,100 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    justify-content: center;
+}
+
+.sr_only {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    border: 0px;
+    clip: rect(0, 0, 0, 0);
+}
+
+fieldset {
+    border: none;
+}
+
+.login_container {
+    position: absolute;
+    user-select: none;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login_title {
+    text-align: center;
+}
+
+#user_id,
+#user_pw {
+    width: calc(100% - 15px);
+    height: 50px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 15px;
+    border: 1px solid rgba(135, 135, 135, 0.562);
+    font-family: inherit;
+}
+
+.login_btn {
+    cursor: pointer;
+    width: 100%;
+    height: 45px;
+    border-radius: 0px;
+    border: none;
+    background-color: #5F0080;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 16px;
+    transition: all 0.3s;
+    margin-top: 30px;
+    font-family: inherit;
+    line-height: 43px;
+}
+
+.login_register {
+    cursor: pointer;
+    width: 100%;
+    height: 45px;
+    border-radius: 0px;
+    border: none;
+    background-color: #5F0080;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 16px;
+    transition: all 0.3s;
+    margin-top: 5px;
+    font-family: inherit;
+    line-height: 43px;
+}
+
+.login_maintain {
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(51, 51, 51);
+}
+
+.login_line{
+    width: 1px;
+    height: 10px;
+    margin: 3px 6px 0px;
+    background-color: rgb(51, 51, 51);
+}
+
+
+/* https://ondolroom.tistory.com/148 */
+/* 로그인 선 */

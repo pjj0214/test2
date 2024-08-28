@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles/마켓컬리 로그인.css">
+    <title>마켓컬리 - 로그인</title>
+</head>
+
+<body>
+    <form action="https://www.kurly.com/member/login" class="login_container">
+
+    <h2 class="login_title">로그인</h2>
+
+    <fieldset>
+        <legend class="sr_only">로그인</legend>
+
+        <div class="user_pw">
+            <label for="user_id" class="sr_only">아이디</label>
+            <input type="text" id="user_id" name="user_id" placeholder="아이디 입력">
+        </div>
+
+        <div class="user_pw">
+            <label for="user_pw" class="sr_only">비밀번호</label>
+            <input type="password" id="user_pw" name="user_pw" placeholder="비밀번호 입력">
+        </div>
+
+        <div class="login_maintain">
+            <a class="login_ID" href="#">아이디 찾기
+            <span class="login_line"></span>
+            <a class="login_PW" href="#">비밀번호 찾기</a>
+        </div>
+
+        <div class="login_btn_wrapper">
+            <button type="submit" class="login_btn">로그인</button>
+        </div>
+        <div class="login_btn_wrapper">
+            <button type="submit" class="login_register">회원가입</button>
+        </div>
+    </fieldset>
+    </form>
+</body>
+
+</html>

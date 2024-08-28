@@ -1,0 +1,189 @@
+body {
+    background-image: linear-gradient(to bottom, 
+    rgba(0, 0, 0, 0.3) 10%,
+    rgba(0, 0, 0, 0.3) 10%,
+    rgba(0, 0, 0, 0.5) 20%,
+    rgba(0, 0, 0, 0.6) 30%,
+    rgba(0, 0, 0, 0.7) 50%,
+    rgb(0, 0, 0, 1) 60%), url(https://assets.nflxext.com/ffe/siteui/vlv3/031c42b9-0c81-4db5-b980-0160765188e9/d4a5ce7f-8ed5-4f19-847e-c30dcb94434f/KR-ko-20240819-TRIFECTA-perspective_WEB_b52e8b72-0adb-4297-b373-a69e092f69e4_large.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: calc(100% - 95%);
+    padding-right: calc(100% - 95%);
+    /* padding-left: calc((100% - 90%) / 2);
+padding-right: calc((100% - 90%) / 2); */
+}
+
+.버튼{
+    display : block;
+    text-decoration : none;
+    color : rgb(37, 37, 37);
+    padding : 12px 20px;
+}
+
+.로그인{
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    width: 70px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.로그인:hover{
+    background: rgb(198, 0, 0);
+}
+
+figure {
+    white-space: pre-line;
+    text-align: center;
+    color: #fff;
+}
+
+.문장1 {
+    font-size: 60px;
+    margin-bottom: 0%;
+}
+
+.문장2 {
+    font-size: 20px;
+    margin-bottom: 0%;
+    font-weight: bold;
+}
+
+.문장3 {
+    font-size: 16px;
+}
+
+.이메일작성 {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.이메일주소 {
+    width: 540px;
+    height: 60px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.이메일버튼 {
+    display: flex;
+    width: 210px;
+    height: 60px;
+    border: none;
+    color: #fff;
+    background-color: red;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+    align-items: center;
+    justify-content: center;
+}
+
+.이메일버튼:hover {
+    background-color: rgb(130, 0, 0);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.프로모션{
+    text-align: center;
+    color: #fff;
+}
+
+main{
+    margin-bottom: 50%;
+}
+
+footer{
+    color: #b5b4b4;
+    height: 100vh;
+    background-color: black;
+display: block;
+unicode-bidi: isolate;
+height: 40%;
+    padding-top: 46px;
+    padding-left: calc(100% - 95%);
+    padding-right: calc(100% - 95%);
+}
+
+.메뉴{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    line-height: 30px;
+    margin-left: -35px;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.select_btn {
+    cursor: pointer;
+    width: 113px;
+    height: 40px;
+    background-color: #000;
+    color: #757575;
+    text-align: center;
+    border-radius: 4px;
+}
+
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+
+select {
+    text-rendering: auto;
+    display: inline-block;
+    border-style: solid;
+}
+
+.footer_netflix{
+    margin-top: 50px;
+}
+
+.adress{
+    line-height: 10px;
+}
+
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+/* https://kimmj.github.io/css/background-img-darken/ */
+/* 배경 이미지 어둡게 */
+/* https://choiiis.github.io/web/toy-project-sign-up-and-in-page/ */
+/* 리스트 드롭다운 구현 */
+/* https://duektmf34.tistory.com/53 */
+
+/* https://nyagm.tistory.com/68 */
+/* 넷플릭스만들기 */
+/* https://velog.io/@kauthenticity/HTML-CSS-%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4-%EB%A9%94%EB%89%B4-%EB%A7%8C%EB%93%A4%EA%B8%B0 */
+/* 드롭다운메뉴 */
+/* https://velog.io/@ewaterbin/CSS-.-%EC%85%80%EB%A0%89%ED%8A%B8-%EB%B0%95%EC%8A%A4%EB%A5%BC-%EA%B5%AC%ED%98%84%ED%95%98%EB%A9%B0-%EB%B4%89%EC%B0%A9%ED%95%9C-%EB%82%9C%EA%B4%80%EB%93%A4
+드롭다운메뉴2
+/* https://coding-with-jina.tistory.com/43 */
+/* 배경이미지 흐리게 */
+/* https://velog.io/@ewaterbin/CSS-.-%EC%85%80%EB%A0%89%ED%8A%B8-%EB%B0%95%EC%8A%A4%EB%A5%BC-%EA%B5%AC%ED%98%84%ED%95%98%EB%A9%B0-%EB%B4%89%EC%B0%A9%ED%95%9C-%EB%82%9C%EA%B4%80%EB%93%A4
+셀렉트 박스 구현 */
